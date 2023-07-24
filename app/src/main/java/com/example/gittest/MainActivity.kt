@@ -15,7 +15,6 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         Inicializar()
-        init()
 
 
     }
@@ -27,8 +26,4 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun init() {
-        var num = 0
-        num++
-    }
 }
