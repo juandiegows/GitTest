@@ -14,16 +14,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        Inicializar()
-
-
-    }
-
-    private fun Inicializar() {
-        binding.apply {
+            binding.apply {
 
             SharedPreferentApplication.prefs.SaveUser("Juan Diego")
         }
+
+
     }
+
+
 
 }
